@@ -3,7 +3,10 @@
   "bugs": "https://github.com/hitbits/rpi-servo-sg90/issues",
   "description": "Servo SG90 on Raspberry Pi",
   "contributors": "Javier Sánchez Ochando <jsanchez@deskblue.com>",
-  "dependencies": {},
+  "dependencies": {
+    "johnny-five": "1.0.x",
+    "raspi-io": "9.0.x"
+  },
   "devDependencies": {
     "eslint": "5.9.x"
   },
