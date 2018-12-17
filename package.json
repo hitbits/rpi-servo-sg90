@@ -32,5 +32,5 @@
     "lint": "eslint src/",
     "start": "node src/server.js"
   },
-  "version": "0.0.0"
+  "version": "0.1.0"
 }
