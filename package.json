@@ -1,0 +1,33 @@
+{
+  "author": "Javier Sánchez Ochando <jsanchez@deskblue.com>",
+  "bugs": "https://github.com/hitbits/rpi-servo-sg90/issues",
+  "description": "Servo SG90 on Raspberry Pi",
+  "contributors": "Javier Sánchez Ochando <jsanchez@deskblue.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "5.9.x"
+  },
+  "engines": {
+    "node": "10.14.x"
+  },
+  "homepage": "https://github.com/hitbits/rpi-servo-sg90",
+  "keywords": [
+    "raspberrypi",
+    "johnny-five",
+    "servo",
+    "sg90"
+  ],
+  "main": "src/server.js",
+  "maintainers": "Javier Sánchez Ochando <jsanchez@deskblue.com>",
+  "name": "rpi-servo-sg90",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitbits/rpi-servo-sg90.git"
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "node src/server.js"
+  },
+  "version": "0.0.0"
+}
